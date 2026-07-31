@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2026 Escodoo
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="purchase_order_form_equipment" model="ir.ui.view">
+        <field name="name">purchase.order.form.equipment</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase_analytic_global.purchase_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='analytic_distribution']" position="after">
+                <field
+                    name="equipment_cost_center_id"
+                    groups="analytic.group_analytic_accounting"
+                    options="{'no_create': True}"
+                />
+            </xpath>
+        </field>
+    </record>
+</odoo>
