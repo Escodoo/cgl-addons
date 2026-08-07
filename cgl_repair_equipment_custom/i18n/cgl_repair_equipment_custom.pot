@@ -1,0 +1,30 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cgl_repair_equipment_custom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cgl_repair_equipment_custom
+#. odoo-python
+#: code:addons/cgl_repair_equipment_custom/models/repair_order.py:0
+msgid "A Repair Order must be linked to a Product or an Equipment."
+msgstr ""
+
+#. module: cgl_repair_equipment_custom
+#: model:ir.model.fields,field_description:cgl_repair_equipment_custom.field_repair_order__equipment_id
+msgid "Equipment"
+msgstr ""
+
+#. module: cgl_repair_equipment_custom
+#: model:ir.model,name:cgl_repair_equipment_custom.model_repair_order
+msgid "Repair Order"
+msgstr ""
