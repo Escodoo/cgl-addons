@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="mrp_production_workorder_form_view_inherit_duration" model="ir.ui.view">
+        <field name="name">mrp.production.work.order.form.duration</field>
+        <field name="model">mrp.workorder</field>
+        <field name="inherit_id" ref="mrp.mrp_production_workorder_form_view_inherit" />
+        <field name="arch" type="xml">
+            <xpath
+                expr="//field[@name='time_ids']/list/field[@name='duration']"
+                position="after"
+            >
+                <field name="duration_hours" widget="float_time" readonly="1" />
+            </xpath>
+            <xpath
+                expr="//field[@name='time_ids']/form//field[@name='duration']"
+                position="after"
+            >
+                <field name="duration_hours" widget="float_time" readonly="1" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
