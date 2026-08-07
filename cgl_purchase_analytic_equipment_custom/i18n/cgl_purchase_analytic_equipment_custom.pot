@@ -1,0 +1,51 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cgl_purchase_analytic_equipment_custom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cgl_purchase_analytic_equipment_custom
+#: model:account.analytic.account,name:cgl_purchase_analytic_equipment_custom.analytic_account_equipamentos_escavadeira
+msgid "03 - ESCAVADEIRA"
+msgstr ""
+
+#. module: cgl_purchase_analytic_equipment_custom
+#: model:account.analytic.account,name:cgl_purchase_analytic_equipment_custom.analytic_account_equipamentos_retroescavadeira
+msgid "04 - RETROESCAVADEIRA"
+msgstr ""
+
+#. module: cgl_purchase_analytic_equipment_custom
+#: model:ir.model.fields,help:cgl_purchase_analytic_equipment_custom.field_purchase_order__equipment_cost_center_id
+msgid ""
+"Automatically applied to every order line's analytic distribution. Each line"
+" remains individually editable afterwards."
+msgstr ""
+
+#. module: cgl_purchase_analytic_equipment_custom
+#: model:ir.model.fields,field_description:cgl_purchase_analytic_equipment_custom.field_purchase_order__equipment_cost_center_id
+msgid "Centro de Custo (Equipamentos)"
+msgstr ""
+
+#. module: cgl_purchase_analytic_equipment_custom
+#: model:account.analytic.plan,name:cgl_purchase_analytic_equipment_custom.analytic_plan_equipamentos
+msgid "Equipamentos"
+msgstr ""
+
+#. module: cgl_purchase_analytic_equipment_custom
+#: model:ir.model,name:cgl_purchase_analytic_equipment_custom.model_purchase_order
+msgid "Purchase Order"
+msgstr ""
+
+#. module: cgl_purchase_analytic_equipment_custom
+#: model:ir.model,name:cgl_purchase_analytic_equipment_custom.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr ""
