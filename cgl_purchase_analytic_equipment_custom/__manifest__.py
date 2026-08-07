@@ -13,6 +13,7 @@
         "purchase_analytic_global",
     ],
     "data": [
+        "data/analytic_plan_equipamentos.xml",
         "views/purchase_order_views.xml",
     ],
     "demo": [

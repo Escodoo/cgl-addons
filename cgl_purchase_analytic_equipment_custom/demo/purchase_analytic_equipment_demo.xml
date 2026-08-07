@@ -2,19 +2,9 @@
 <!-- Copyright 2026 Escodoo
      License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
 <odoo noupdate="1">
-    <record id="analytic_plan_equipamentos" model="account.analytic.plan">
-        <field name="name">Equipamentos</field>
-    </record>
-
-    <record
-        id="analytic_applicability_equipamentos_purchase"
-        model="account.analytic.applicability"
-    >
-        <field name="business_domain">purchase_order</field>
-        <field name="applicability">optional</field>
-        <field name="analytic_plan_id" ref="analytic_plan_equipamentos" />
-    </record>
-
+    <!-- Sample cost centers only. Real equipment cost centers are customer
+         master data and must be registered by the customer; the module ships
+         the plan (see data/) but never invents its accounts. -->
     <record
         id="analytic_account_equipamentos_escavadeira"
         model="account.analytic.account"

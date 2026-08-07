@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2026 Escodoo
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+    <!-- The module resolves this plan by XML ID, never by name, so that
+         renaming or translating it does not break the cost center domain. -->
+    <record id="analytic_plan_equipamentos" model="account.analytic.plan">
+        <field name="name">Equipamentos</field>
+    </record>
+
+    <record
+        id="analytic_applicability_equipamentos_purchase"
+        model="account.analytic.applicability"
+    >
+        <field name="business_domain">purchase_order</field>
+        <field name="applicability">optional</field>
+        <field name="analytic_plan_id" ref="analytic_plan_equipamentos" />
+    </record>
+</odoo>
