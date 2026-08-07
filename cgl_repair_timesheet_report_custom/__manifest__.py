@@ -10,7 +10,7 @@
     "author": "Escodoo, Odoo Community Association (OCA)",
     "website": "https://github.com/Escodoo/cgl-addons",
     "depends": [
-        "repair_analytic_timesheet",
+        "repair_timesheet",
     ],
     "data": [
         "views/timesheets_analysis_report_views.xml",
