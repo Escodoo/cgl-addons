@@ -17,6 +17,18 @@
             >
                 <field name="employee_id" />
             </xpath>
+            <xpath
+                expr="//field[@name='time_ids']/list/field[@name='duration']"
+                position="after"
+            >
+                <field name="duration_hours" widget="float_time" readonly="1" />
+            </xpath>
+            <xpath
+                expr="//field[@name='time_ids']/form//field[@name='duration']"
+                position="after"
+            >
+                <field name="duration_hours" widget="float_time" readonly="1" />
+            </xpath>
         </field>
     </record>
 </odoo>

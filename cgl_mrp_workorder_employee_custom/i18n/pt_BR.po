@@ -1,0 +1,59 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cgl_mrp_workorder_employee_custom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-11 13:10+0000\n"
+"PO-Revision-Date: 2026-08-11 13:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cgl_mrp_workorder_employee_custom
+#: model:ir.model.fields,field_description:cgl_mrp_workorder_employee_custom.field_mrp_workcenter_productivity__duration_hours
+msgid "Duration (Hours)"
+msgstr "Duração (Horas)"
+
+#. module: cgl_mrp_workorder_employee_custom
+#: model:ir.model.fields,help:cgl_mrp_workorder_employee_custom.field_mrp_workcenter_productivity__duration_hours
+msgid ""
+"Duration in hours. The native duration field stores minutes but the Time "
+"Tracking view displays it with the float_time widget, which expects hours, "
+"so it misrenders (e.g. 124 minutes shown as 124:00 instead of 2:04). This "
+"field converts to hours so the widget renders it correctly."
+msgstr ""
+"Duração em horas. O campo nativo de duração armazena minutos, mas a aba "
+"Controle de Tempo o exibe com o widget float_time, que espera horas, "
+"exibindo o valor errado (ex.: 124 minutos aparecem como 124:00 em vez de "
+"2:04). Este campo converte para horas para que o widget exiba o valor "
+"corretamente."
+
+#. module: cgl_mrp_workorder_employee_custom
+#: model:ir.model.fields,field_description:cgl_mrp_workorder_employee_custom.field_mrp_workcenter_productivity__employee_id
+msgid "Employee"
+msgstr "Funcionário"
+
+#. module: cgl_mrp_workorder_employee_custom
+#: model:ir.model.fields,help:cgl_mrp_workorder_employee_custom.field_mrp_workcenter_productivity__employee_id
+msgid ""
+"Employee who performed the activity, for labor cost attribution. Independent"
+" from the user that logged the record."
+msgstr ""
+"Funcionário que realizou a atividade, para apropriação de custo de mão de "
+"obra. Independente do usuário que registrou o lançamento."
+
+#. module: cgl_mrp_workorder_employee_custom
+#: model:ir.model.fields,field_description:cgl_mrp_workorder_employee_custom.field_mrp_workcenter_productivity__smart_search
+msgid "Smart Search"
+msgstr "Busca Inteligente"
+
+#. module: cgl_mrp_workorder_employee_custom
+#: model:ir.model,name:cgl_mrp_workorder_employee_custom.model_mrp_workcenter_productivity
+msgid "Workcenter Productivity Log"
+msgstr "Registro de produtividade do centro de trabalho"
