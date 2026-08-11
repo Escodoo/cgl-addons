@@ -19,7 +19,6 @@ msgid "Activity"
 msgstr ""
 
 #. module: cgl_repair_timesheet_report_custom
-#: model:ir.model.fields,field_description:cgl_repair_timesheet_report_custom.field_timesheets_analysis_report__repair_order_id
 #: model_terms:ir.ui.view,arch_db:cgl_repair_timesheet_report_custom.repair_timesheets_analysis_report_search
 msgid "Repair Order"
 msgstr ""
@@ -29,11 +28,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:cgl_repair_timesheet_report_custom.repair_timesheets_analysis_report_list
 #: model_terms:ir.ui.view,arch_db:cgl_repair_timesheet_report_custom.repair_timesheets_analysis_report_pivot
 msgid "Repair Order Timesheets"
-msgstr ""
-
-#. module: cgl_repair_timesheet_report_custom
-#: model:ir.model,name:cgl_repair_timesheet_report_custom.model_timesheets_analysis_report
-msgid "Timesheets Analysis Report"
 msgstr ""
 
 #. module: cgl_repair_timesheet_report_custom
