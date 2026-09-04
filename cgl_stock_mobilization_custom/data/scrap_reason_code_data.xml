@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2026 Escodoo
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+    <record id="scrap_reason_perdido" model="scrap.reason.code">
+        <field name="name">Perdido em obra</field>
+    </record>
+    <record id="scrap_reason_roubado" model="scrap.reason.code">
+        <field name="name">Roubado em obra</field>
+    </record>
+    <record id="scrap_reason_danificado" model="scrap.reason.code">
+        <field name="name">Danificado em obra</field>
+    </record>
+    <record id="scrap_reason_outro" model="scrap.reason.code">
+        <field name="name">Outro motivo</field>
+    </record>
+</odoo>
