@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2026 Escodoo
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="stock_scrap_form_view_obra" model="ir.ui.view">
+        <field name="name">stock.scrap.form.obra</field>
+        <field name="model">stock.scrap</field>
+        <field name="inherit_id" ref="stock.stock_scrap_form_view" />
+        <field name="arch" type="xml">
+            <field name="location_id" position="after">
+                <field name="is_obra_scrap" invisible="1" />
+                <field
+                    name="obra_id"
+                    invisible="not is_obra_scrap"
+                    required="is_obra_scrap"
+                    options="{'no_create': True}"
+                />
+                <field
+                    name="justificativa"
+                    invisible="not is_obra_scrap"
+                    placeholder="Detalhe o ocorrido: data, local, boletim de ocorrência, etc."
+                />
+            </field>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2026 Escodoo
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="stock_picking_form_view_obra_scrap" model="ir.ui.view">
+        <field name="name">stock.picking.form.obra.scrap</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.view_picking_form" />
+        <field name="arch" type="xml">
+            <button name="%(stock.act_stock_return_picking)d" position="after">
+                <field name="show_register_obra_scrap" invisible="1" />
+                <button
+                    name="action_register_obra_scrap"
+                    string="Registrar Baixa (não retornou)"
+                    invisible="not show_register_obra_scrap"
+                    type="object"
+                    groups="base.group_user"
+                />
+            </button>
+        </field>
+    </record>
+</odoo>
