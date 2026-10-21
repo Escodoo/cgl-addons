@@ -1,0 +1,2 @@
+- [Escodoo](https://www.escodoo.com.br):
+  - Gabriel Medice \<gabriel.medice@escodoo.com.br\>
